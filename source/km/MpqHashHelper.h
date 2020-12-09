@@ -1,0 +1,9 @@
+#ifndef __MPQ_HASH_HELPER_H__
+#define __MPQ_HASH_HELPER_H__
+
+#define MPQ_INVALID_HASH    ~0ULL
+
+ULONGLONG Hash(PCUNICODE_STRING String, CONST VOID* Table);
+ULONGLONG Hash(PCANSI_STRING String, CONST VOID* Table);
+
+#endif // !__MPQ_HASH_HELPER_H__

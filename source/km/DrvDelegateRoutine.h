@@ -1,0 +1,4 @@
+#ifndef __DRV_DELEGATE_ROUTINE_H__
+#define __DRV_DELEGATE_ROUTINE_H__
+
+#endif // __DRV_DELEGATE_ROUTINE_H__
